@@ -12,8 +12,4 @@ def prime?(int)
     end
   end
 
-  if int < 3
-    return true
-  end
-
 end

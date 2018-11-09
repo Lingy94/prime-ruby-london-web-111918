@@ -1,14 +1,9 @@
-def prime?(int)
- 
-  if int <= 1 
-    return false
-  elsif int > 0 && int < 3
-    return true
-  end
-  for i in 2..int-1
-    if (int % i) == 0
-      return false
+def prime?(number)
+  (2..number). each do |divisor|
+    if number % divisor == 0 
+      return TRUE
+    else
+      return FALSE
     end
   end
-  return true
 end

@@ -1,5 +1,4 @@
 def prime?(int)
-<<<<<<< HEAD
  
   if int <= 1 
     return false
@@ -11,9 +10,5 @@ def prime?(int)
       return false
     end
   end
-
-  if int < 3
-    return true
-  end
-
+  return true
 end
